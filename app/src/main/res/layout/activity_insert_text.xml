@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#e8e8e8"
+    android:layout_height="match_parent"
+    tools:context="com.example.bordia98.drawer.insert_text">
+
+    <ImageView
+        android:id="@+id/insert_imageview"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_above="@+id/edittext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="done"
+        android:background="@drawable/roundbutton"
+        android:textColor="#000"
+        android:textSize="32dp"
+        android:layout_marginBottom="12dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/insert_imageview"
+        android:layout_alignEnd="@+id/insert_imageview" />
+
+    <Button
+        android:id="@+id/write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="write text"
+        android:background="@drawable/roundbutton"
+        android:textColor="#000"
+        android:textSize="32dp"
+
+        android:layout_alignBaseline="@+id/done"
+        android:layout_alignBottom="@+id/done"
+        android:layout_alignLeft="@+id/insert_imageview"
+        android:layout_alignStart="@+id/insert_imageview" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/write"
+        android:layout_marginBottom="13dp"
+        android:layout_toStartOf="@+id/done"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Write your text here"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toLeftOf="@+id/done" />
+
+    <TextView
+        android:id="@+id/textinserted"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/insert_imageview"
+        android:layout_alignStart="@+id/insert_imageview"
+        android:layout_alignTop="@+id/insert_imageview"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="79dp"
+         />
+
+</RelativeLayout>

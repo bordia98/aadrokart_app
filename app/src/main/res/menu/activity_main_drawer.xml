@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+nav
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_resize"
+        android:title="Resize"/>
+
+    <item
+        android:id="@+id/nav_compress"
+        android:title="compress"/>
+
+    <item
+        android:id="@+id/nav_autocompress"
+        android:title="autocompress" />
+
+    <item
+        android:id="@+id/nav_edit"
+        android:title="edit"/>
+
+    <item
+        android:id="@+id/nav_signout"
+        android:title="signout" />
+
+        </group>
+
+</menu>

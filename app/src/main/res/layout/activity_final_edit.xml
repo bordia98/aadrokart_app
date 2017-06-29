@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/editlayout"
+    android:background="#e8e8e8"
+    android:layout_height="match_parent"
+    tools:context="com.example.bordia98.drawer.final_edit">
+
+
+    <ImageView
+<<<<<<< HEAD
+=======
+        android:id="@+id/crop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="15dp"
+        android:layout_y="430dp"
+        android:background="@drawable/crop1"
+        android:onClick="cropimage"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/final_edit_imageview"
+        android:layout_alignStart="@+id/final_edit_imageview" />
+
+    <ImageView
+>>>>>>> b6cc6c87889afc452231617aded1e34f547fbc5a
+        android:id="@+id/filter"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="149dp"
+        android:layout_y="436dp"
+        android:background="@drawable/filter"
+        android:onClick="filterimage"
+<<<<<<< HEAD
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/rotate"
+        android:layout_toStartOf="@+id/rotate"
+        android:layout_marginRight="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="22dp" />
+=======
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:layout_alignTop="@+id/crop"
+        android:layout_toRightOf="@+id/crop"
+        android:layout_toEndOf="@+id/crop" />
+>>>>>>> b6cc6c87889afc452231617aded1e34f547fbc5a
+
+    <ImageView
+        android:id="@+id/inserttext"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+<<<<<<< HEAD
+=======
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/filter"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+>>>>>>> b6cc6c87889afc452231617aded1e34f547fbc5a
+        android:layout_x="269dp"
+        android:layout_y="433dp"
+        android:background="@drawable/text"
+        android:onClick="inserttext"
+        android:layout_alignTop="@+id/rotate"
+        android:layout_toRightOf="@+id/rotate"
+        android:layout_toEndOf="@+id/rotate"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inserttext"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/inserttext"
+        android:layout_marginTop="27dp"
+        android:layout_x="268dp"
+        android:layout_y="24dp"
+        android:background="@drawable/roundbutton"
+        android:text="Done"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/final_edit_imageview"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_x="40dp"
+        android:layout_y="84dp"
+<<<<<<< HEAD
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/done"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp" />
+=======
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/inserttext"
+        android:layout_alignEnd="@+id/inserttext" />
+>>>>>>> b6cc6c87889afc452231617aded1e34f547fbc5a
+
+    <ImageView
+        android:id="@+id/rotate"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/rotate"
+<<<<<<< HEAD
+        android:layout_alignTop="@+id/filter"
+        android:layout_centerHorizontal="true" />
+=======
+        android:layout_alignTop="@+id/inserttext"
+        android:layout_toLeftOf="@+id/inserttext"
+        android:layout_toStartOf="@+id/inserttext"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp" />
+>>>>>>> b6cc6c87889afc452231617aded1e34f547fbc5a
+
+
+</RelativeLayout>

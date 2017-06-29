@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#E8E8E8"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+<<<<<<< HEAD
+=======
+        android:id="@+id/rclick"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_x="87dp"
+        android:layout_y="416dp"
+        android:background="@drawable/roundbutton"
+        android:text="click"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/rpick"
+        android:layout_alignStart="@+id/rpick" />
+
+    <Button
+>>>>>>> b6cc6c87889afc452231617aded1e34f547fbc5a
+        android:id="@+id/rpick"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="78dp"
+
+        android:layout_y="186dp"
+        android:background="@drawable/roundbutton"
+        android:text="pick"
+        android:textColor="#000000"
+        android:textSize="35dp"
+<<<<<<< HEAD
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="152dp" />
+=======
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp" />
+>>>>>>> b6cc6c87889afc452231617aded1e34f547fbc5a
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="133dp"
+        android:layout_y="52dp"
+        android:background="@drawable/gallery1"
+
+        android:layout_above="@+id/rpick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp" />
+
+<<<<<<< HEAD
+=======
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_x="132dp"
+        android:layout_y="287dp"
+        android:background="@drawable/camera"
+        android:layout_above="@+id/rclick"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginBottom="52dp" />
+>>>>>>> b6cc6c87889afc452231617aded1e34f547fbc5a
+
+</RelativeLayout>

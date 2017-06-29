@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#e8e8e8"
+    android:layout_height="match_parent"
+    tools:context="com.example.bordia98.drawer.final_edit">
+
+
+    <Button
+        android:id="@+id/save_resized"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_x="225dp"
+        android:layout_y="439dp"
+        android:background="@drawable/roundbutton"
+        android:text="save"
+        android:textColor="#000"
+        android:textSize="27dp"
+        android:layout_alignBaseline="@+id/resize_done"
+        android:layout_alignBottom="@+id/resize_done"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/resize_done"
+        android:layout_width="112dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="23dp"
+        android:layout_x="42dp"
+        android:layout_y="432dp"
+        android:background="@drawable/roundbutton"
+        android:text="Resize"
+        android:textColor="#000"
+        android:textSize="27dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="35dp"
+        />
+
+    <ImageView
+        android:id="@+id/final_resize_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+<<<<<<< HEAD
+        android:layout_x="20dp"
+        android:layout_y="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp" />
+=======
+        android:layout_x="40dp"
+        android:layout_y="50dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="70dp"
+       />
+>>>>>>> b6cc6c87889afc452231617aded1e34f547fbc5a
+
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bordia98.drawer.MainActivity"
+    android:background="#ffffff">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#455A64"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="#2196F3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56.5dp"
+            android:layout_gravity="top"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView2"
+<<<<<<< HEAD
+                android:layout_width="180.2dp"
+                android:layout_height="60.5dp"
+=======
+                android:layout_width="237.2dp"
+                android:layout_height="56.5dp"
+>>>>>>> b6cc6c87889afc452231617aded1e34f547fbc5a
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="FliKset"
+                android:textColor="#03A9F4"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+<<<<<<< HEAD
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <com.google.android.gms.common.SignInButton
+                    android:id="@+id/sign_in_button"
+                    android:layout_width="120dp"
+                    android:layout_height="60.25dp"
+                    android:layout_marginBottom="129dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true" />
+=======
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/signin"
+                    android:layout_width="100dp"
+                    android:layout_height="28.25dp"
+                    android:layout_gravity="right"
+                    android:gravity="center"
+                    android:text="SignIn"
+                    android:textColor="#03A9F4"
+                    android:textSize="14.1sp"
+                    android:enabled="false"/>
+
+                <Button
+                    android:id="@+id/signout"
+                    android:layout_width="100dp"
+                    android:layout_height="28.25dp"
+                    android:layout_gravity="right"
+                    android:gravity="center"
+                    android:text="SignOut"
+                    android:textColor="#03A9F4"
+                    android:textSize="14.1sp"/>
+>>>>>>> b6cc6c87889afc452231617aded1e34f547fbc5a
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+
+</android.support.design.widget.CoordinatorLayout>

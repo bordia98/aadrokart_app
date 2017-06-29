@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.bordia98.drawer.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#e8e8e8"
+    >
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+<<<<<<< HEAD
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+=======
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>>>>>>> b6cc6c87889afc452231617aded1e34f547fbc5a
+        android:id="@+id/content_frame">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:text="Today's Story"
+            android:textColor="#212121"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="235dp"
+            android:layout_height="75dp"
+            android:layout_gravity="right"
+            android:gravity="center|right"
+            android:onClick="setDate"
+            android:textSize="20sp"
+            android:text="Pick your date"
+            android:textColor="#212121" />
+
+         <EditText
+            android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:hint="add caption here"
+            android:layout_marginTop="325dp"/>
+
+         <ImageView
+           android:id="@+id/text3"
+           android:layout_width="match_parent"
+           android:layout_height="250dp"
+           android:layout_weight="3"
+           android:layout_marginTop="75dp"/>
+<<<<<<< HEAD
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginLeft="79dp"
+                android:text="click"
+                android:onClick="clickPhoto"
+                android:background="@drawable/roundbutton"
+                android:textColor="#000"
+                android:textSize="22dp"/>
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginRight="75dp"
+                android:layout_marginLeft="200dp"
+                android:text="take"
+                android:background="@drawable/roundbutton"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:onClick="takePhoto"/>
+=======
+      <Button
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:layout_marginTop="400dp"
+           android:layout_marginLeft="79dp"
+           android:text="click"
+          android:onClick="clickPhoto"
+          android:background="@drawable/roundbutton"
+           android:textColor="#000"
+          android:textSize="22dp"/>
+      <Button
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginLeft="200dp"
+                 android:text="take"
+           android:background="@drawable/roundbutton"
+            android:textColor="#000"
+            android:textSize="22dp"
+          android:onClick="takePhoto"/>
+>>>>>>> b6cc6c87889afc452231617aded1e34f547fbc5a
+
+        </FrameLayout>
+    </ScrollView>
+</RelativeLayout>

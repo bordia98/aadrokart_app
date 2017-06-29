@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8e8e8"
+    tools:context="com.example.bordia98.drawer.resize_preview">
+
+    <ImageView
+        android:id="@+id/resize_upload"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+
+<<<<<<< HEAD
+        android:layout_marginTop="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+=======
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="38dp"
+        android:layout_above="@+id/rnextbutton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+>>>>>>> b6cc6c87889afc452231617aded1e34f547fbc5a
+
+    <Button
+        android:id="@+id/rnextbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="next"
+        android:textSize="25dp"
+        android:background="@drawable/roundbutton"
+        android:textColor="#000"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/rbackbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:background="@drawable/roundbutton"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_alignBaseline="@+id/rnextbutton"
+        android:layout_alignBottom="@+id/rnextbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

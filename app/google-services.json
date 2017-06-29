@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1091647281388",
+    "project_id": "drawer-a41c5"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091647281388:android:79110589cf447c5f",
+        "android_client_info": {
+          "package_name": "com.example.bordia98.drawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091647281388-urvb8hra4au5168idsfqb1ue3iv3qaah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bordia98.drawer",
+            "certificate_hash": "d513e0f82ea78b381ebdd0c2b11017181cf18c17"
+          }
+        },
+        {
+          "client_id": "1091647281388-fau9giob8bsla2lem0vdab61ivtds756.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLNvLla5Yb1qfnYGUWDqIYfPZJtFVVwXk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

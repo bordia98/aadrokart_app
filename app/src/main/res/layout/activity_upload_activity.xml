@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8e8e8"
+    tools:context="com.example.bordia98.drawer.edit_preview">
+
+    <ImageView
+        android:id="@+id/edit_upload"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="28dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/enextbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_upload"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/edit_upload"
+        android:layout_marginBottom="64dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:text="next"
+        android:textSize="25dp"
+        android:background="@drawable/roundbutton"
+        android:textColor="#000"
+        android:onClick="finaledit"/>
+
+    <Button
+        android:id="@+id/ebackbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edit_upload"
+        android:layout_alignRight="@+id/edit_upload"
+        android:layout_alignTop="@+id/enextbutton"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:text="back"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:background="@drawable/roundbutton"
+        android:onClick="homepage"/>
+</RelativeLayout>
